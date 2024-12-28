@@ -149,76 +149,6 @@ if (isset($_POST['name'])) {
 - The form collects user data and posts it to `index.php` for processing.
 - The success message is conditionally displayed if the form is successfully submitted and data is inserted into the database.
 
----
-
-## 4. Frontend Styling (style.css)
-
-```css
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.bg {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-h1 {
-    text-align: center;
-    font-size: 24px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-input, textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-textarea {
-    resize: vertical;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button[type="reset"] {
-    background-color: #f44336;
-}
-
-button:hover {
-    opacity: 0.8;
-}
-
-.submit-msg {
-    color: green;
-    text-align: center;
-}
 ```
 
 ### Explanation:
@@ -232,7 +162,7 @@ button:hover {
 - The background image will visually enhance the page, providing a modern look to the form UI.
 
 Example UI for the form:
-![Form UI](form.jpg)
+![Form UI](form.PNG)
 
 ---
 
@@ -243,7 +173,8 @@ Example UI for the form:
 
 2. **Viewing Data in phpMyAdmin:**
    - After submitting the form, you can view the data in the `trip` table by logging into **phpMyAdmin**, selecting the `us_trip` database, and navigating to the `trip` table. The submitted data will be displayed, including name, age, gender, email, and other details.
-(data.jpg)
+![data showing in myphpadmin](data.PNG)
+
 ## Advanced Concepts
 
 ### 1. SQL Injection Prevention:
