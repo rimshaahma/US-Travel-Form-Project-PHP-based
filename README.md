@@ -1,7 +1,12 @@
+If your images are in the root directory at the same level as the other files (like `index.php`, `style.css`, etc.), then the issue likely lies with how the file paths are referenced. Since the images are in the same directory as your `README.md`, you don't need to include any folder path before the image file name.
 
-# US Travel Form Project
+Here's the corrected version of your `README.md` with the image paths fixed:
 
-## Overview
+---
+
+## US Travel Form Project
+
+### Overview
 
 This project is a simple PHP-based form that allows users to submit their information (name, age, gender, etc.) for a US trip. The data is submitted via a POST request and stored in a MySQL database. The project demonstrates PHP form handling, MySQL database interaction, error handling, success messages, and basic HTML/CSS frontend development.
 
@@ -149,11 +154,6 @@ if (isset($_POST['name'])) {
 - The form collects user data and posts it to `index.php` for processing.
 - The success message is conditionally displayed if the form is successfully submitted and data is inserted into the database.
 
-```
-
-### Explanation:
-- Styles for the form, buttons, and background are provided to make the UI visually appealing and easy to use.
-
 ---
 
 ## 5. Image UI
@@ -173,7 +173,11 @@ Example UI for the form:
 
 2. **Viewing Data in phpMyAdmin:**
    - After submitting the form, you can view the data in the `trip` table by logging into **phpMyAdmin**, selecting the `us_trip` database, and navigating to the `trip` table. The submitted data will be displayed, including name, age, gender, email, and other details.
-![data showing in myphpadmin](data.PNG)
+
+Example of data showing in phpMyAdmin:
+![Data Showing in phpMyAdmin](data.PNG)
+
+---
 
 ## Advanced Concepts
 
@@ -189,4 +193,6 @@ $stmt->execute();
 
 ### 2. AJAX Form Submission:
 You can submit the form without refreshing the page using **AJAX** and JavaScript, improving the user experience.
+
+---
 
