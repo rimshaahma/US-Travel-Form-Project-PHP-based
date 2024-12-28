@@ -1,0 +1,50 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; 
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.container{
+    max-width: 80%;
+  
+    padding: 34px;
+    margin: auto;
+}
+.container h1,p{
+    font-size: 17px
+}
+input,textarea{
+    width: 80%;
+    margin: 11px 0px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px;
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background: purple;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    position: fixed; /* Use fixed for the same effect as background-attachment */
+    z-index: -1; /* Moves the image behind other elements */
+    object-fit: cover; /* Scales the image to cover the container */
+    top: 0;
+    left: 0;
+}
+.submit-msg{
+    color: green;
+}
