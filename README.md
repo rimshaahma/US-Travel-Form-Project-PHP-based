@@ -1,8 +1,3 @@
-If your images are in the root directory at the same level as the other files (like `index.php`, `style.css`, etc.), then the issue likely lies with how the file paths are referenced. Since the images are in the same directory as your `README.md`, you don't need to include any folder path before the image file name.
-
-Here's the corrected version of your `README.md` with the image paths fixed:
-
----
 
 ## US Travel Form Project
 
