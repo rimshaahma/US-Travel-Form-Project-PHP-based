@@ -232,7 +232,7 @@ button:hover {
 - The background image will visually enhance the page, providing a modern look to the form UI.
 
 Example UI for the form:
-![Form UI](bg.jpg)
+![Form UI](form.jpg)
 
 ---
 
@@ -243,7 +243,7 @@ Example UI for the form:
 
 2. **Viewing Data in phpMyAdmin:**
    - After submitting the form, you can view the data in the `trip` table by logging into **phpMyAdmin**, selecting the `us_trip` database, and navigating to the `trip` table. The submitted data will be displayed, including name, age, gender, email, and other details.
-data.jpg
+(data.jpg)
 ## Advanced Concepts
 
 ### 1. SQL Injection Prevention:
